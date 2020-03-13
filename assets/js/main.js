@@ -10,7 +10,7 @@ $("#formGroupExampleInput1").on('keyup', function () {
   $('#formGroupExampleInput2').val($("#formGroupExampleInput1").val());
 });
 
-$("button").on('click', function () {
+$(".cookie-input").on('click', function () {
   var inputValue = $("#formGroupExampleInput").val();
   Cookies.set('newTestCookie', inputValue, {
     expires: 7,
@@ -18,7 +18,7 @@ $("button").on('click', function () {
   });
 });
 
-$("button").on('click', function () {
+$(".delete-cookie").on('click', function () {
   var inputValue = $("#formGroupExampleInput").val();
   Cookies.remove('newTestCookie', {
     path: '/'
