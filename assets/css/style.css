@@ -58,7 +58,7 @@
   padding: 5px;
 }
 .full-width-header{
-  min-height: 500px;
+  min-height: 100%;
   background: transparent;
   /* height: 100%;
   background-size: cover;
