@@ -1,65 +1,75 @@
- .cal-container {
-   position: relative;
-   top: 0;
-   left: 0;
- }
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 
- .cal {
-   top: 50%;
+.cal-container {
+  position: relative;
+  height: 100%;
+  background-image: url(https://i.imgur.com/QuPvpx9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-   position: absolute;
-   width: 250px;
-   height: 300px;
-   background: linear-gradient(135deg, #23C4F8, #275EFE);
- }
+.cal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: -125px;
+  background: linear-gradient(135deg, #B0BEC5, #5D4037);
+}
 
- .input-area {
-   margin: 15px;
-   width: 220px;
-   height: 40px;
-   font-size: 20px;
-   background-color: white
- }
+.input-area {
+  margin: 15px;
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  background-color: white
+}
 
- .calculator-area {
-   background-color: antiquewhite;
-   margin: 15px;
-   width: 220px;
-   height: 220px;
- }
+.calculator-area {
+  background-color: antiquewhite;
+  margin: 15px;
+  width: 220px;
+  height: 220px;
+}
 
- .first {
-   height: 100%;
-   width: 100%;
-   margin-top: 5px;
- }
+.first {
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+}
 
- .number {
-   height: 100%;
-   width: 100%;
-   color: #275EFE;
-   font-size: 20px;
- }
+.number {
+  height: 100%;
+  width: 100%;
+  color: #275EFE;
+  font-size: 20px;
+}
 
- .operator {
-   height: 100%;
-   width: 100%;
-   color: #275EFE;
-   font-size: 20px;
+.operator {
+  height: 100%;
+  width: 100%;
+  color: #275EFE;
+  font-size: 20px;
 
- }
+}
 
- .return-value {
-   height: 100%;
-   width: 100%;
-   color:
-     font-size: 20px;
+.return-value {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
 
- }
-
- table,
- th,
- td {
-   border: 1px solid black;
-   border-collapse: collapse;
- }
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
