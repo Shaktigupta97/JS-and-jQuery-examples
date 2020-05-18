@@ -1,10 +1,11 @@
 function functionSequence() {
-  $('#first').on('click', function () {
+  $('#second').on('click', function () {
     $('#first').after('<div class="middle"></div>');
   });
-  $('#second').on('click', function () {
-    $('.middle').remove();
-  });
+  $('#first').on('click', function () {
+    $('.middle:eq(0)').remove();
+
+  })
 }
 
 // =========================================================
